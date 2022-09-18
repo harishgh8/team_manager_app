@@ -127,7 +127,6 @@ export const DataProvider = ({ children }) => {
         selectedTeam,
         handleEmployeeClick,
         handleSelectTeam,
-        handleSelectTeam,
         teamMemberCount,
       }}
     >

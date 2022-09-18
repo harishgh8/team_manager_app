@@ -25,6 +25,7 @@ const TeamList = () => {
               <img
                 src={employee.gender === "male" ? men : women}
                 className="card-img-top"
+                alt="profile_pics"
               />
               <div className="card-body">
                 <h6 className="card-title">{employee.fullName}</h6>
