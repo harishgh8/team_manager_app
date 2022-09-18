@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const GroupedTeamMembers = ({
   employees,
@@ -6,7 +6,6 @@ const GroupedTeamMembers = ({
   selectedTeam,
   handleSelectTeam,
 }) => {
-  const [groupedTeam, setGroupedteam] = useState(selectedTeam);
   console.log(selectedTeam);
   return (
     <div className="container">
